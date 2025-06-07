@@ -1,0 +1,6 @@
+pyproject.toml
+weather_ai.egg-info/PKG-INFO
+weather_ai.egg-info/SOURCES.txt
+weather_ai.egg-info/dependency_links.txt
+weather_ai.egg-info/requires.txt
+weather_ai.egg-info/top_level.txt

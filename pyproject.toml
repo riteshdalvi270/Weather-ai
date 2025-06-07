@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weather-ai"
+version = "0.0.1"
+description = "A project using uv for dependency management"
+authors = [
+    { name = "Ritesh Dalvi", email = "riteshdalvi270@gmail.com" }
+]
+dependencies = [
+    "openai",
+    "langchain",
+    "langchain-openai",
+    "streamlit",
+    "python-dotenv",
+    "PyPDF2",
+    "fastapi>=0.109.0",
+    "uvicorn>=0.27.0",
+    "mcp[cli]",
+    "httpx"
+]
+
+[tool.setuptools]
+packages = ["src"] 

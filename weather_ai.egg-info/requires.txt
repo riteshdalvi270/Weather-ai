@@ -1,0 +1,10 @@
+openai
+langchain
+langchain-openai
+streamlit
+python-dotenv
+PyPDF2
+fastapi>=0.109.0
+uvicorn>=0.27.0
+mcp[cli]
+httpx

@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: weather-ai
+Version: 0.0.1
+Summary: A project using uv for dependency management
+Author-email: Ritesh Dalvi <riteshdalvi270@gmail.com>
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: langchain-openai
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
+Requires-Dist: PyPDF2
+Requires-Dist: fastapi>=0.109.0
+Requires-Dist: uvicorn>=0.27.0
+Requires-Dist: mcp[cli]
+Requires-Dist: httpx
